@@ -1,0 +1,101 @@
+body {
+    background-color: #0B1C2D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive; /* Retro font */
+}
+
+h1 {
+    color: #FFEDBC;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.color-button {
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.start-button {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #1bd9eb;
+    color: #0B1C2D;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.start-button:active {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(19, 22, 226);
+    color: white;
+}
+
+
+.Restart-button {
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #1bd9eb;
+    color: #0B1C2D;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Restart-button:active {
+    box-shadow: 0 0 20px white;
+    background-color: rgb(19, 22, 226);
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.color-button {
+    transition: all 0.2s ease; /* Smooth transition for all properties */
+}
+
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+}
+
+

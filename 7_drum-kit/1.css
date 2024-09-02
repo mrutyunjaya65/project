@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #2bbbf4; /* Light grey background for contrast */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures space between elements */
+    align-items: center;
+    margin: 0;
+}
+
+.title {
+    margin-top: 130px; /* Add some top margin for spacing */
+}
+
+h1#title {
+    font-size: 4rem;
+    color: #333; /* Dark color for better readability */
+    text-align: center;
+    letter-spacing: 2px; /* Adds some spacing between letters */
+}
+
+.set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px; /* Space between buttons */
+    margin: 20px 0; /* Adds space above and below the buttons */
+}
+
+button.drum {
+    width: 150px;
+    height: 150px;
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #4CAF50; /* Green background for buttons */
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px #999;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button.drum:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+button.drum:active {
+    background-color: #3e8e41; /* Even darker green when pressed */
+    transform: translateY(2px);
+    box-shadow: 0 2px #666;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #dbebf3;
+    opacity: 0.5;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: #e0e0e0; /* Light grey background for footer */
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.w{
+    background-image: url("images/tom1.png");
+}
+
+.a{
+    background-image: url("images/tom2.png");
+}
+
+.s{
+    background-image: url("images/tom3.png");
+}
+
+.d{
+    background-image: url("images/tom4.png");
+}
+
+.j{
+    background-image: url("images/snare.png");
+}
+
+.k{
+    background-image: url("images/crash.png");
+}
+
+.l{
+    background-image: url("images/kick.png");
+}
+
